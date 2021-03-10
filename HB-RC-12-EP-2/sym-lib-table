@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name cc1101)(type Legacy)(uri C:/Users/marku/OneDrive/Dokumente/Arduino/Homematic/HB-RC-4-Dis-TH-master/HB-RC-4-Dis-TH-master/PCB/cc1101.lib)(options "")(descr ""))
-  (lib (name cc1101-module)(type Legacy)(uri C:/Users/marku/OneDrive/Dokumente/Arduino/Homematic/HM-ES-PMSw1-Pl_GosundSP1/HM-ES-PMSw1-Pl_GosundSP1-master/Platine/libraries/cc1101-module.lib)(options "")(descr ""))
-)
