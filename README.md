@@ -29,7 +29,6 @@ Bauteile ohne Hat          | Bezeichnung          | Anzahl | Kommentar        | 
 C3-C13                     | 1µF, 10%, 25V        |  11    | KEM X5R0805 1,0U |Reichelt|
 D3, D4, D5                 | MBR0530              |   3    | MBR0530T1G ONS   |Reichelt|
 C3, ... C13                | 1µF, 10%, 25V        |  11    | KEM X5R0805 1,0U |Reichelt|
-C3, ... C13                | 1µF, 10%, 25V        |  11    | KEM X5R0805 1,0U |Reichelt|
 R8                         | 100K Ohm             |   1    | RND 0805 1 100K  |Reichelt|
 R8-1,R8-2                  | 1,0 Ohm              |   2    | SMD-0805 1,00    |Reichelt|
 Q2                         | IRLML 6346           |   1    | IRLML 6346       |Reichelt|
