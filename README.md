@@ -11,7 +11,7 @@ Dieses Projekt basiert auf der Arbeit von [pa-pa](https://github.com/pa-pa/AskSi
 ### Bauteile
 
 Bauteile                   | Bezeichnung          | Anzahl | Kommentar        | Quelle   |
--------------------------- | -------------------- | ------ | ------------ --- | -------- |
+-------------------------- | -------------------- | ------ | ---------------- | -------- |
 C1,C2,C14,C15,C16,C17      | 100nF, 10%, 50V      |   6    |  X7R-G0805 100N  |Reichelt  |
 C18                        | 100µF/10V            |   1    | TAJ 3528 100/10  |Reichelt  |
 D1                         | LED rot 12 mcd 160°  |   1    | OSO LHR974       |Reichelt  |
