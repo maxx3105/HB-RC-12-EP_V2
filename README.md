@@ -19,7 +19,7 @@ D2                         | LED grün 7.1 mcd 160°|   1    | OSO LGR971       
 R1, R2                     | 1,5K Ohm             |   2    | RND 0805 1 1,5K  |Reichelt  |
 R3                         | 10K Ohm              |   1    | RND 0805 1 10K   |Reichelt  |
 U1                         | Atmega 1284P-AU      |   1    | TQFP44           |Reichelt  |
-U2                         | CC1101               |   1    | 868Mhz Funkmodul |[eBay]      (https://www.ebay.de/itm/1-2-5PCS-CC1101-868MHZ-Kabellos-Modul-Long-Distance-Transmission-Antenne-1-8V/322983173720?ssPageName=STRK%3AMEBIDX%3AIT&var=512121286081&_trksid=p2057872.m2749.l2649)|
+U2                         | CC1101               |   1    | 868Mhz Funkmodul |[eBay](https://www.ebay.de/itm/1-2-5PCS-CC1101-868MHZ-Kabellos-Modul-Long-Distance-Transmission-Antenne-1-8V/322983173720?ssPageName=STRK%3AMEBIDX%3AIT&var=512121286081&_trksid=p2057872.m2749.l2649)|
 SW1-13                     | Taster 3x6x2,5mm     |  13    | DTSM-3           |[Aliexpress](https://de.aliexpress.com/item/32672806661.html)|
 Q1                         | CSTCE8               |   1    | 8Mhz Resonator   |[Aliexpress](https://de.aliexpress.com/item/32436805954.html?spm=a2g0s.9042311.0.0.27424c4dFOxBvK)|
 
@@ -60,28 +60,33 @@ U4                         | MCP 73831T-2ACI      |   1    | MCP 73831T-2ACI |Re
 ### Fuses
 Ext:  0xFF
 High: 0xD2
-Low:  0xE2
+Low:  0xE2 (0xFF für Externen Takt)
 
-`C:\Program Files (x86)\Arduino\hardware\tools\avr\bin> .\avrdude -C ..\etc\avrdude.conf -p m644p -P com7 -c stk500 -U lfuse:w:0xE2:m -U hfuse:w:0xD2:m -U efuse:w:0xFF:m`
+`C:\Program Files (x86)\Arduino\hardware\tools\avr\bin> .\avrdude -C ..\etc\avrdude.conf -p m1284p -P com7 -c stk500 -U lfuse:w:0xE2:m -U hfuse:w:0xD2:m -U efuse:w:0xFF:m`
 
 
 ### Firmware
 
-Projektverzeichnis: [HB-ES-PMSw1-Pl_GosundSP1](coming soon)
+Projektverzeichnis: [HB-RC-12-EP](https://github.com/jp112sdl/HB-RC-12-EP)
 
-Benötigt werden die Bibliotheken [AskSinPP](https://github.com/pa-pa/AskSinPP) aus dem master-Branch, sowie die [HLW8012](https://github.com/xoseperez/hlw8012), die [MightyCore](https://github.com/MCUdude/MightyCore), die [EnableInterrupt](https://github.com/GreyGnome/EnableInterrupt) und [Low-Power](https://github.com/rocketscream/Low-Power).
-
+Benötigt werden die Bibliotheken
+  - [AskSinPP](https://github.com/pa-pa/AskSinPP) (master-Branch verwenden!)
+  - [Low-Power](https://github.com/rocketscream/Low-Power)
+  - [EnableInterrupt](https://github.com/GreyGnome/EnableInterrupt)
+  - [GxEPD](https://github.com/ZinggJM/GxEPD) 
+  - [Adafruit-GFX](https://github.com/adafruit/Adafruit-GFX-Library)
+  - [Adafruit-BusIO](https://github.com/adafruit/Adafruit_BusIO)
+  - [U8g2_for_Adafruit_GFX](https://github.com/olikraus/U8g2_for_Adafruit_GFX)
 
 # Bauanleitung
 
-coming soon
-
-
-# Kalibrierung
-
-coming soon
+https://cdn.thingiverse.com/assets/88/70/7e/3d/6d/Aufbauanleitung_YA_HB-RC-12-EP_Case.pdf
 
 
 # Bilder
-![Vorderseite](https://github.com/maxx3105/HB-ES-PMSwX-Pl_Gosund/blob/main/HB-ES-PMSwX-Pl_Gosund_top.png)
-![Rückseite](https://github.com/maxx3105/HB-ES-PMSwX-Pl_Gosund/blob/main/HB-ES-PMSwX-Pl_Gosund_bottom.png)
+![Vorderseite](https://github.com/maxx3105/HB-RC-12-EP_V2/blob/main/HB-RC-12-EP-2/HB-RC-12-EP-2_top.png)
+![Rückseite](https://github.com/maxx3105/HB-RC-12-EP_V2/blob/main/HB-RC-12-EP-2/HB-RC-12-EP-2_bottom.png)
+
+
+# Links
+https://homematic-forum.de/forum/viewtopic.php?f=76&t=50160
