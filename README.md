@@ -22,6 +22,7 @@ U1                         | Atmega 1284P-AU      |   1    | TQFP44           |R
 U2                         | CC1101               |   1    | 868Mhz Funkmodul |[eBay](https://www.ebay.de/itm/1-2-5PCS-CC1101-868MHZ-Kabellos-Modul-Long-Distance-Transmission-Antenne-1-8V/322983173720?ssPageName=STRK%3AMEBIDX%3AIT&var=512121286081&_trksid=p2057872.m2749.l2649)|
 SW1-13                     | Taster 3x6x2,5mm     |  13    | DTSM-3           |[Aliexpress](https://de.aliexpress.com/item/32672806661.html)|
 Q1                         | CSTCE8               |   1    | 8Mhz Resonator   |[Aliexpress](https://de.aliexpress.com/item/32436805954.html?spm=a2g0s.9042311.0.0.27424c4dFOxBvK)|
+Q3 Statt Q1                | CSTCC8               |   1    | 8Mhz Resonator   |Reichelt  |
 
 
 Bauteile ohne Hat          | Bezeichnung          | Anzahl | Kommentar        | Quelle |
