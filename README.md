@@ -84,8 +84,8 @@ https://cdn.thingiverse.com/assets/88/70/7e/3d/6d/Aufbauanleitung_YA_HB-RC-12-EP
 
 
 # Bilder
-![Vorderseite](https://github.com/maxx3105/HB-RC-12-EP_V2/blob/main/HB-RC-12-EP-2/HB-RC-12-EP-2_top.png)
-![Rückseite](https://github.com/maxx3105/HB-RC-12-EP_V2/blob/main/HB-RC-12-EP-2/HB-RC-12-EP-2_bottom.png)
+![Vorderseite](https://github.com/maxx3105/HB-RC-12-EP_V2/blob/main/HB-RC-12-EP-2_top.png)
+![Rückseite](https://github.com/maxx3105/HB-RC-12-EP_V2/blob/main/HB-RC-12-EP-2_bottom.png)
 
 
 # Links
