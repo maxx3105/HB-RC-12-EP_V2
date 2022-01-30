@@ -46,6 +46,7 @@ R11                        | 1K Ohm               |   1    | RND 0805 1 1,0K |Re
 R13                        | 100K Ohm             |   1    | RND 0805 1 100K |Reichelt|
 U3                         | MCP 1700T-3002E      |   1    | MCP 1700T-3002E |Reichelt|
 U4                         | MCP 73831T-2ACI      |   1    | MCP 73831T-2ACI |Reichelt|
+U5                         | PC357                |   1    | PC 357NJ0000F   |Reichelt|
 
 #### Sonstiges
 
